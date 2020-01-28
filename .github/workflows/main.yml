@@ -22,5 +22,5 @@ jobs:
         branch: gh-pages
         base_branch: main
         folder: public
-        token: ${{ secrets.ACCESS_TOKEN }}
+        token: ${{ secrets.GITHUB_TOKEN }}
 
