@@ -20,5 +20,7 @@ jobs:
       with:
         dir: public
         branch: gh-pages
+        base_branch: main
+        folder: public
         token: ${{ secrets.ACCESS_TOKEN }}
 
