@@ -20,7 +20,7 @@ jobs:
       with:
         dir: public
         branch: gh-pages
-        base_branch: main
+        base_branch: master
         folder: public
         token: ${{ secrets.GITHUB_TOKEN }}
         ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
