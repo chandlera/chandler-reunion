@@ -9,18 +9,16 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
-    - name: Run a one-line script
-      run: echo Hello, world!
     - name: Build Gatsby Site
       uses: jzweifel/gatsby-cli-github-action@master
       with:
         gatsby-arg: build
+
     - name: Deploy to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@3.2.1
       with:
         dir: public
-        branch: gh-pages
-        base_branch: master
-        folder: public
-        token: ${{ secrets.GITHUB_TOKEN }}
-        ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        BRANCH: gh-pages
+        BASE_BRANCH: master
+        FOLDER: public
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
