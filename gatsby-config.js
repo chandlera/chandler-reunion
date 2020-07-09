@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Chandler Reunions`,
+    title: `Chandler Family Reunions`,
     author: `Alan Chandler`,
     description: `A blog for our Chandler family reunions.`,
     siteUrl: `https://chandlera.github.io/chandler-reunion//`
