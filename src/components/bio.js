@@ -16,6 +16,7 @@ import { rhythm } from "../utils/typography"
 const Bio = () => {
   const fluidImageObject = {
     src: ChandlerCrest,
+    srcSet: '',
     width: 200,
     height: 269
   }
@@ -24,9 +25,9 @@ const Bio = () => {
     <div
       style={{
         display: `flex`,
-        'flex-direction': 'column',
-        'justify-content': 'center',
-        'align-items': 'center',
+        flexDirection: 'column',
+        justifyContent: 'center',
+        alignItems: 'center',
         marginBottom: rhythm(2),
       }}
     >

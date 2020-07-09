@@ -4,8 +4,6 @@ date: "2020-07-09T14:10:27.268Z"
 description: "Information about our reunion for 2020"
 ---
 
-![Chandler Crest](./chandler-crest.png)
-
 Hi family, you all should have received an email that we’re moving our “in-person” reunion date to an online only event.
 
 - August 1, 2020 from Noon-1:30 – call in anytime via Zoom, and we’ll check in with each family to see how everyone’s surviving this challenging COVID-19 impacted year.
